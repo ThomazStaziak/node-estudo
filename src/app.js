@@ -8,7 +8,7 @@ const app = express()
 const router = express.Router()
 
 // Connecting to database
-mongoose.connect('mongodb://staziak:staziak1@ds012538.mlab.com:12538/node_store')
+mongoose.connect('<string de conexão>')
 
 // Loading models
 const Product = require ('./models/product')
