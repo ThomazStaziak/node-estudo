@@ -26,21 +26,3 @@ app.use('/', indexRoutes)
 app.use('/products', productsRoutes)
 
 module.exports = app
-
-
-
-
-
-
-
-
-
-
-
-var listaDeCompras = ['pão', 'biscoito', 'feijão']
-
-listaDeCompras.length = 3
-
-listaDeCompras.pop() = ['pão', 'biscoito']
-
-listaDeCompras.push('feijão')
